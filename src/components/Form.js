@@ -35,7 +35,7 @@ class form extends Component {
                 <span style={textStyle}>Digite um e-mail válido <img src={Warn} /></span>
               </div>)}
           </div>
-          <button  className="ui blue button" type="submit" onClick={this.submitHandler.bind(this)} >Enviar</button>
+          <button  className="ui blue button" type="submit" onClick={this.submitHandler.bind(this)} >Assinar</button>
         </form>
       </div>
     )
