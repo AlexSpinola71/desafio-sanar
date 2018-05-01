@@ -18,7 +18,7 @@ var body = () => {
             <strong>Excelência</strong> em materiais didáticos
           </span>
           <div className="ui blue big buttons" style={{paddingTop: '50px', display:'block'}}>
-            <a href="//www.editorasanar.com.br/"><button className="ui button">Ir para loja</button></a>
+            <a href="//www.editorasanar.com.br/"><button className="ui button">Loja Online</button></a>
           </div>
           <AnchorLink href="#quem-somos"><img src={Down}  style={{paddingTop: '100px'}}/></AnchorLink>
         </div>
