@@ -36,7 +36,7 @@ var CardsClientes = () => {
             <a>Estudante de Odontologia</a>
           </div>
           <div className="description">
-           Comprou o livro: 1.000 Questões Comentadas de Provas e Concursos em Odontologia
+            Comprou o livro: 1.000 Questões Comentadas de Provas e Concursos em Odontologia
           </div>
         </div>
         <div className="extra">

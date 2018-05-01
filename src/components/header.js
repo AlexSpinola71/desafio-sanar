@@ -11,7 +11,7 @@ var header = () => {
         <a> <img src={Sanar} alt="Logo Sanar" className="logo" /> </a>
         <nav>
           <ul>
-          <li><AnchorLink href="#quem-somos" >Quem somos</AnchorLink></li>
+            <li><AnchorLink href="#quem-somos" >Quem somos</AnchorLink></li>
             <li><AnchorLink href="#catalogo" >Catálogo</AnchorLink></li>
             <li><a href="//www.instagram.com/editorasanar/"><img src={Instagram} alt="Logo Instagram" className="instagram" /> </a></li>
           </ul>

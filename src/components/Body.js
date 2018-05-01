@@ -31,12 +31,11 @@ var body = () => {
           Acreditamos que apenas com materiais didáticos customizados, fruto da dedicação de autores e editores com sólida formação acadêmica, conseguiremos atender aos propósitos dos nossos leitores.
           Além disso, primamos por um canal fluido de comunicação com os nossos clientes, e por agilidade na entrega dos nossos produtos. Customização do produto e relacionamento com cliente, ao nosso ver, compõe a essência do que a Editora Sanar pode oferecer de melhor aos nossos leitores no cumprimento dos seus objetivos! Boas leituras!</p>
         <AnchorLink href="#catalogo"><img src={Down}  style={{paddingTop: '20px'}}/></AnchorLink>
-
       </section>
 
       <div className="pimg2">
         <div className="ptext">
-          <span className="border trans">
+          <span className="">
           </span>
         </div>
       </div>
@@ -45,42 +44,41 @@ var body = () => {
         <h2 id="catalogo" className="sans-bold-dark">Catálogo</h2>
         <CardsCursos />
         <AnchorLink href="#newsletter"><img src={Down}  style={{paddingTop: '50px'}}/></AnchorLink>
-
       </section>
+
       <div className="pimg2">
         <div className="ptext">
-          <span className="border trans">
+          <span className="">
           </span>
         </div>
       </div>
-
 
       <section className="section section-dark">
         <h2 id="newsletter" className="sans-light">Assine a nossa Newsletter para saber de todas as novidades </h2>
         <Form/>
         <AnchorLink href="#nossos-clientes"><img src={Down}  style={{paddingTop: '30px'}}/></AnchorLink>
-
       </section>
+
       <div className="pimg2">
         <div className="ptext">
-          <span className="border trans">
+          <span className="">
           </span>
         </div>
       </div>
+
       <section className="section section-light ">
         <h2 id="nossos-clientes" className="sans-bold-dark">Nossos Clientes</h2>
         <CardsClientes/>
         <AnchorLink href="#rodape"><img src={Down}  style={{paddingTop: '30px'}}/></AnchorLink>
       </section>
 
-
       <div className="pimg1">
         <div className="ptext">
-          <span className="border trans">
+          <span className="">
           </span>
         </div>
       </div>
-      <span id="rodape"></span>
+      <span id="rodape" />
     </div>
   )
 }
