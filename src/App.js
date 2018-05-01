@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import './App.css';
 import Header from './components/header'
+import Footer from './components/footer'
 import Body from './components/Body';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App" style={{height: "inherit"}}>
         <Header />
         <Body />
-        <Header/>
+        <Footer />
       </div>
     );
   }

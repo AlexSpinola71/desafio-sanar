@@ -22,7 +22,7 @@ var CardsClientes = () => {
           </div>
         </div>
         <div className="extra">
-          Nota:
+          Avaliação:
           <Stars/>
         </div>
       </div>
@@ -40,7 +40,7 @@ var CardsClientes = () => {
           </div>
         </div>
         <div className="extra">
-          Nota:
+          Avaliação:
           <Stars/>
         </div>
       </div>
@@ -58,7 +58,7 @@ var CardsClientes = () => {
           </div>
         </div>
         <div className="extra">
-          Nota:
+          Avaliação:
           <Stars/>
         </div>
       </div>

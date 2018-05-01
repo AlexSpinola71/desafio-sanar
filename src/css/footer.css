@@ -1,0 +1,36 @@
+
+footer {
+  width: 100%;
+  bottom: 0;
+  background: #222;
+  padding: 60px 0px;
+}
+
+
+
+footer nav {
+  float: left;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+
+footer nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Open Sans';
+}
+
+footer nav a:hover {
+  color: #ccc;
+}
+
+a img {
+  cursor: pointer;
+}
+
+
