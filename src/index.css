@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  line-height: 1.8em;
+  color: #666;
+}
+
+@media (max-width: 568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+}
