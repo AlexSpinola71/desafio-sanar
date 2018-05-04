@@ -23,19 +23,23 @@ class form extends Component {
       color: 'white',
       fontFamily: 'Open Sans',
     }
+    const container = {
+      display: 'flex',
+      alignItems: 'center'
+    }
 
     return (
       <div>
         <form className="ui form">
-          <div className="field" >
-            <input  type="text" placeholder="Digite seu e-mail"  value={this.state.email} onChange={e => this.setState({email: e.target.value})} />
-            {this.state.valid?  null :
-              (<div
-                style={{display: 'flex', justifyContent: 'center', paddingTop:'10px'}}>
-                <span style={textStyle}>Digite um e-mail válido <img src={Warn} /></span>
-              </div>)}
+          <div className="field" className={container}>
+            <input  type="text" placeholder="Digite seu e-mail" style={{width: '70%'}} value={this.state.email} onChange={e => this.setState({email: e.target.value})} />
+            <button  className="ui teal medium button" type="submit" onClick={this.submitHandler.bind(this)} >Assinar</button>
           </div>
-          <button  className="ui blue button" type="submit" onClick={this.submitHandler.bind(this)} >Assinar</button>
+          {this.state.valid?  null :
+            (<div
+              style={{display: 'flex', justifyContent: 'center', paddingTop:'10px'}}>
+              <span style={textStyle}>Digite um e-mail válido <img src={Warn} /></span>
+            </div>)}
         </form>
       </div>
     )
