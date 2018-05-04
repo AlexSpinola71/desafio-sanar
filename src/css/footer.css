@@ -1,15 +1,16 @@
 
 footer {
   width: 100%;
-  bottom: 0;
+  padding: 20px;
   background: #222;
-  padding: 60px 0px;
+  height: auto;
 }
 
-
-
 footer nav {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 footer nav ul li {

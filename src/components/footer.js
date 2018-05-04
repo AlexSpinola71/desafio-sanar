@@ -14,9 +14,8 @@ var footer = () => {
             <li><a href="//www.editorasanar.com.br/autores" className="footer-link">Nossos Autores</a></li>
             <li><a href="//www.editorasanar.com.br/faq" className="footer-link">Perguntas Frequentes</a></li>
             <li><a href="//www.editorasanar.com.br/termos-e-condicoes" className="footer-link">Termos e Condições</a></li>
-            <li><a> <img src={Follow}  /> </a></li>
           </ul>
-
+          <a> <img src={Follow}  /> </a>
         </nav>
       </div>
     </footer>
