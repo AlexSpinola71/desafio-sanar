@@ -9,4 +9,4 @@ Tecnologias utilizadas:
 Steps: 
 1. Clonar o repositório
 2. Rodar o comando "npm install" ou "npm i" (necessário ter npm instalado)
-3. Dentro da pasta do repositório rodar "npm start"
+3. Dentro da pasta do repositório executar o comando "npm start"
